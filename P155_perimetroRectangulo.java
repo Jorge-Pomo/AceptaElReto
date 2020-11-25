@@ -9,18 +9,23 @@ public class P155_perimetroRectangulo {
 		
 		//VARIABLES
 		
-		int base = 0;
-		int altura = 0;
+		int base;
+		int altura;
+		int peri = 0;
 		
 		//ALGORITME
 		
-		base = sc.nextInt();
-		altura = sc.nextInt();
-		
 		do {
+			base = sc.nextInt();
+			altura = sc.nextInt();
 			
-		}while(base <= 0 && altura <= 0);
-		
+			if(base >= 0 && altura >= 0) {
+				peri = base + altura;
+				peri = peri * 2;
+			
+				System.out.println(peri);
+			}
+		}while(base >= 0 && altura >= 0);
 	}
 
 }

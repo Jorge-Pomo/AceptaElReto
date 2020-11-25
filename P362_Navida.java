@@ -17,10 +17,17 @@ public class P362_Navida {
 		numConsult = sc.nextInt();
 		
 		for (int i = 0; i <= numConsult; i++) {
-			if() {
-				
-			}else {
-				
+			dia = sc.nextInt();
+			mes = sc.nextInt();
+
+			if(dia == 25){
+				if(mes == 12){
+					System.out.println("SI");
+				} else {
+					System.out.println("NO");
+				}
+			} else {
+				System.out.println("NO");
 			}
 		}
 		
