@@ -6,17 +6,17 @@ public class P362_Navida {
 		// TODO Auto-generated method stub
 
 		Scanner sc = new Scanner(System.in);
-		
+
 		//VARIABLES
 		int numConsult = 0;
 		int dia = 0;
 		int mes = 0;
-		
-		
+
+
 		//ALGORITME
 		numConsult = sc.nextInt();
-		
-		for (int i = 0; i <= numConsult; i++) {
+
+		for (int i = 1; i <= numConsult; i++) {
 			dia = sc.nextInt();
 			mes = sc.nextInt();
 
@@ -30,7 +30,7 @@ public class P362_Navida {
 				System.out.println("NO");
 			}
 		}
-		
+
 	}
 
 }
